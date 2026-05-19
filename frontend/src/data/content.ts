@@ -26,7 +26,7 @@ export const PORTFOLIO_DATA = {
       description: "AI-based Android app permission risk classification system. Achieved 92.5% accuracy using fine-tuned BERT models for risk assessment.",
       tags: ["PYTHON", "BERT", "ML"],
       links: [
-        { label: "SOURCE", url: "https://github.com/akajayesh/PermAware", icon: "github" },
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/PermAware", icon: "github" },
         { label: "DEMO", url: "#", icon: "external-link" }
       ],
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDWN7nOCuT8mcHc7744M8DvX98DpVfv0kZn1Zp3XwWGwykOeIVALtyNkLoPXaJJuM5aXEOUQGL8kspTynHhuONpJECdVQ1o9Ne-8izS0bqGWB3ziKZ2iZMqhDNo94eMztsnP-c4MnJWND3NJlBLoJGEnaw0qDgLHY_FDt1WS6xd_ByesAYnZ91NMwrrC8X9X4Jtvn1Nt0Qwku9K0Xo7TOoB1xBCl5dGjNnjZcSLFVQk4SaSpnvubzPXK4VtlRF0yj5lgzr-aARKP2M"
@@ -38,7 +38,7 @@ export const PORTFOLIO_DATA = {
       description: "Multi-turn Django chatbot featuring robust session context management. Optimized backend logic resulting in a 40% reduction in codebase complexity.",
       tags: ["DJANGO", "NLP", "BACKEND"],
       links: [
-        { label: "SOURCE", url: "https://github.com/akajayesh/FRIDAY", icon: "github" }
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/FRIDAY", icon: "github" }
       ],
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDb29OI36ogmltf0rEu2C3iOffrWYaDucP-b9I6vDTlTT0YW5b1UUuGuepzN-wIX17yHwir6TYPq1EfV6r9Q2sPDvLxKXg1RRiz-Al0NtkptRgm_wGtV6aw7PEXe3n5vAAVI-KPblh_IQnq2XW_pfdA9zu4AcRNV1a2fkULHQQmc9tJprzLdjxKoDV8bLCwoK0q3Tu41HBJpwl0L1Tv-l3hVwpGOPEv3Q-7GaP3gcz4Ew1zfKDVlUL3-vYOanChYMtNXQ2DJThBsm0"
     },
@@ -49,7 +49,7 @@ export const PORTFOLIO_DATA = {
       description: "Productivity SaaS with integrated Pomodoro timers and detailed analytics. Built with React and Django REST Framework for seamless synchronization.",
       tags: ["REACT", "DRF", "TAILWIND"],
       links: [
-        { label: "SOURCE", url: "https://github.com/akajayesh/FlowTime", icon: "github" },
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/FlowTime", icon: "github" },
         { label: "LIVE", url: "https://flow-time-wheat.vercel.app", icon: "globe" }
       ],
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCyPZeM9Y7QpDLSWm2VC9ln6ZECmqy7BxqANNXLJd6SJABUe7qZdKjwDhE-0BsWbfxPxFSCor_CDqZlVT6mm3iimeDRmdXKhIbS8RliPUtaYXMCEB8YhI6diliOr6rHIoi7YV5KMUaQKSrFlq812Oh47Zun-OGCXp_I8EXFrkCkzWzKQXDV-f2q7OANU4yI7ZsnJRtZuDDT6o_x88-G2NHYR_Nes2M-M1VJ8jVVJ5kGIRhdKrP6kIPW-OXXAn9PqfhPBI6Xgmsv714"
@@ -61,7 +61,7 @@ export const PORTFOLIO_DATA = {
       description: "FairQueue is a distributed systems inspired ticket booking simulator built to explore fairness-first queueing and concurrent booking control under high-traffic scenarios inspired by IRCTC Tatkal. Built with Next.js, FastAPI, Redis, PostgreSQL, Docker, and WebSockets, the system simulates virtual queues, temporary seat locking, and real-time scalable booking workflows.",
       tags: ["NEXT.JS", "FASTAPI", "REDIS", "WEBSOCKETS"],
       links: [
-        { label: "SOURCE", url: "https://github.com/akajayesh/FairQueue", icon: "github" },
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/FairQueue", icon: "github" },
         { label: "LIVE", url: "https://fair-queue.vercel.app/", icon: "globe" }
       ],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
