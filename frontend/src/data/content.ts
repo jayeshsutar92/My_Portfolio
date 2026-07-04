@@ -75,7 +75,7 @@ export const PORTFOLIO_DATA = {
       links: [
         { label: "SOURCE", url: "https://github.com/jayeshsutar92/IssuePilot", icon: "github" }
       ],
-      image: "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
     }
   ],
   skills: {
