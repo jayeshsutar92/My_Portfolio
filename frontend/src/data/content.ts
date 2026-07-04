@@ -103,7 +103,7 @@ export const PORTFOLIO_DATA = {
   contact: {
     email: "jayeshsutar312@gmail.com",
     phone: "+91-7387885582",
-    location: "Maharashtra, India",
+    location: "Mumbai, Maharashtra, India",
     github: "https://github.com/jayeshsutar92", // Link placeholder if real user's repo isn't specified
     linkedin: "https://www.linkedin.com/in/jayeshsutar89951825a/"
   }
