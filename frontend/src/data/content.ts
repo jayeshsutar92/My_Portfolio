@@ -65,6 +65,17 @@ export const PORTFOLIO_DATA = {
         { label: "LIVE", url: "https://fair-queue.vercel.app/", icon: "globe" }
       ],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      id: "issuepilot",
+      title: "IssuePilot",
+      category: "AI Agents / Full Stack",
+      description: "IssuePilot is a full-stack, AI-powered GitHub Issue Triage Assistant built to help open-source maintainers prioritize issues, detect duplicates, identify missing diagnostic information, and recommend labels. Built with Next.js, FastAPI, PostgreSQL, Redis, Google ADK, Gemini 2.5 Flash, Docker, and the GitHub REST API.",
+      tags: ["GOOGLE ADK", "GEMINI", "FASTAPI", "NEXT.JS"],
+      links: [
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/IssuePilot", icon: "github" }
+      ],
+      image: "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&q=80&w=800"
     }
   ],
   skills: {
