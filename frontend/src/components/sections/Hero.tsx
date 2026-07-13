@@ -1,40 +1,8 @@
 import { motion } from "motion/react";
-import { Download, ChevronRight, Terminal } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { ChevronRight, Terminal } from "lucide-react";
 import { PORTFOLIO_DATA } from "../../data/content";
 
 export function Hero() {
-  const [isResumeMenuOpen, setIsResumeMenuOpen] = useState(false);
-  const resumeMenuRef = useRef<HTMLDivElement>(null);
-
-  const resumeOptions = [
-    { label: "Software Engineer", url: "https://drive.google.com/file/d/1490qNqlDtC84HXU67yEjTwW5YLWd2IeR/view?usp=sharing" },
-    { label: "Full Stack Engineer", url: "https://drive.google.com/file/d/1axtgEMBJzXjMr96dP8IyJcIVJArkLEEX/view?usp=sharing" },
-    { label: "Backend Engineer", url: "https://drive.google.com/file/d/1sIUM1poVtUaHHmsvr-Dx_NMC74YNbY6i/view?usp=sharing" },
-    { label: "AI Engineer", url: "https://drive.google.com/file/d/1lFEm5MzwDVPatLW4Yf0429YO5C-_foeD/view?usp=sharing" },
-  ];
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (resumeMenuRef.current && !resumeMenuRef.current.contains(event.target as Node)) {
-        setIsResumeMenuOpen(false);
-      }
-    };
-
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        setIsResumeMenuOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    document.addEventListener("keydown", handleEscape);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-      document.removeEventListener("keydown", handleEscape);
-    };
-  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -83,38 +51,6 @@ export function Hero() {
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex flex-wrap gap-6 items-center">
-          <div ref={resumeMenuRef} className="relative">
-            <motion.div
-              initial={false}
-              animate={{ opacity: isResumeMenuOpen ? 1 : 0, y: isResumeMenuOpen ? 0 : 8, scale: isResumeMenuOpen ? 1 : 0.98 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-              className={`absolute bottom-full left-0 mb-2 w-64 rounded border border-primary-dim/30 bg-surface-highest/95 p-2 shadow-[0_0_20px_rgba(0,255,170,0.15)] backdrop-blur-sm ${isResumeMenuOpen ? "pointer-events-auto" : "pointer-events-none"}`}
-            >
-              {resumeOptions.map((option) => (
-                <button
-                  key={option.label}
-                  type="button"
-                  onClick={() => {
-                    setIsResumeMenuOpen(false);
-                    window.open(option.url, "_blank", "noopener,noreferrer");
-                  }}
-                  className="block w-full rounded border border-transparent px-3 py-2 text-left font-mono text-sm text-on-surface-variant transition-all duration-200 hover:border-primary-dim/40 hover:bg-primary-dim/10 hover:text-primary-dim"
-                >
-                  {option.label}
-                </button>
-              ))}
-            </motion.div>
-
-            <button
-              type="button"
-              onClick={() => setIsResumeMenuOpen((prev) => !prev)}
-              className="bg-primary-dim hover:bg-transparent hover:text-primary-dim text-on-primary font-mono px-8 py-4 flex items-center gap-3 border-2 border-primary-dim transition-all duration-300"
-            >
-              DOWNLOAD RESUME
-              <Download className="w-5 h-5" />
-            </button>
-          </div>
-          
           <a href="#projects" className="border border-white/20 hover:border-secondary text-on-surface font-mono px-8 py-4 transition-all duration-300 bg-white/5 backdrop-blur-sm flex items-center gap-2 group">
             VIEW PROJECTS
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
