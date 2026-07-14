@@ -63,7 +63,7 @@ export const PORTFOLIO_DATA = {
       tags: ["NEXT.JS", "FASTAPI", "REDIS", "WEBSOCKETS"],
       links: [
         { label: "SOURCE", url: "https://github.com/jayeshsutar92/FairQueue", icon: "github" },
-        { label: "LIVE", url: "https://fair-queue.vercel.app/", icon: "globe" }
+        { label: "LIVE", url: "https://fair-queue.vercel.app", icon: "globe" }
       ],
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
     },
@@ -74,7 +74,8 @@ export const PORTFOLIO_DATA = {
       description: "IssuePilot is a full-stack, AI-powered GitHub Issue Triage Assistant built to help open-source maintainers prioritize issues, detect duplicates, identify missing diagnostic information, and recommend labels. Built with Next.js, FastAPI, PostgreSQL, Redis, Google ADK, Gemini 2.5 Flash, Docker, and the GitHub REST API.",
       tags: ["GOOGLE ADK", "GEMINI", "FASTAPI", "NEXT.JS"],
       links: [
-        { label: "SOURCE", url: "https://github.com/jayeshsutar92/IssuePilot", icon: "github" }
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/IssuePilot", icon: "github" },
+        { label: "LIVE", url: "https://issue-pilot-psi.vercel.app", icon: "globe" }
       ],
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
     }
