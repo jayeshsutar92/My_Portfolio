@@ -34,11 +34,12 @@ export const PORTFOLIO_DATA = {
     {
       id: "friday",
       title: "F.R.I.D.A.Y",
-      category: "Backend / AI",
+      category: "Backend ",
       description: "Multi-turn Django chatbot featuring robust session context management. Optimized backend logic resulting in a 40% reduction in codebase complexity.",
       tags: ["DJANGO", "NLP", "BACKEND"],
       links: [
-        { label: "SOURCE", url: "https://github.com/jayeshsutar92/FRIDAY", icon: "github" }
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/FRIDAY", icon: "github" },
+        { label: "LIVE (Render URL)", url: "https://friday-qleq.onrender.com", icon: "globe" }
       ],
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDb29OI36ogmltf0rEu2C3iOffrWYaDucP-b9I6vDTlTT0YW5b1UUuGuepzN-wIX17yHwir6TYPq1EfV6r9Q2sPDvLxKXg1RRiz-Al0NtkptRgm_wGtV6aw7PEXe3n5vAAVI-KPblh_IQnq2XW_pfdA9zu4AcRNV1a2fkULHQQmc9tJprzLdjxKoDV8bLCwoK0q3Tu41HBJpwl0L1Tv-l3hVwpGOPEv3Q-7GaP3gcz4Ew1zfKDVlUL3-vYOanChYMtNXQ2DJThBsm0"
     },
