@@ -26,7 +26,8 @@ export const PORTFOLIO_DATA = {
       description: "AI-based Android app permission risk classification system. Achieved 92.5% accuracy using fine-tuned BERT models for risk assessment.",
       tags: ["PYTHON", "BERT", "ML"],
       links: [
-        { label: "SOURCE", url: "https://github.com/jayeshsutar92/PermAware", icon: "github" }
+        { label: "SOURCE", url: "https://github.com/jayeshsutar92/PermAware", icon: "github" },
+        { label: "DEMO", url: "https://permaware.onrender.com", icon: "redirect" }
       ],
       image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDWN7nOCuT8mcHc7744M8DvX98DpVfv0kZn1Zp3XwWGwykOeIVALtyNkLoPXaJJuM5aXEOUQGL8kspTynHhuONpJECdVQ1o9Ne-8izS0bqGWB3ziKZ2iZMqhDNo94eMztsnP-c4MnJWND3NJlBLoJGEnaw0qDgLHY_FDt1WS6xd_ByesAYnZ91NMwrrC8X9X4Jtvn1Nt0Qwku9K0Xo7TOoB1xBCl5dGjNnjZcSLFVQk4SaSpnvubzPXK4VtlRF0yj5lgzr-aARKP2M"
     },
