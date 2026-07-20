@@ -22,8 +22,8 @@ export const PORTFOLIO_DATA = {
     {
       id: "permaware",
       title: "PermAware",
-      category: "AI / Security",
-      description: "AI-based Android app permission risk classification system. Achieved 92.5% accuracy using fine-tuned BERT models for risk assessment.",
+      category: "ML / Security",
+      description: "ML-based Android app permission risk classification system. Achieved 92.5% accuracy using fine-tuned BERT models for risk assessment.",
       tags: ["PYTHON", "BERT", "ML"],
       links: [
         { label: "SOURCE", url: "https://github.com/jayeshsutar92/PermAware", icon: "github" },
